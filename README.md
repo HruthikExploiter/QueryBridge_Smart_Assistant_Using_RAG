@@ -6,6 +6,9 @@ QueryBridge is a smart assistant that leverages Retrieval-Augmented Generation (
 
 ---
 
+## app link
+https://querybridge-smart-assistant.streamlit.app/
+
 ## 🔧 Features
 
 - 📁 Accepts `.txt`, `.csv`, and web URLs for ingestion
