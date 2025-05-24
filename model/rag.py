@@ -13,10 +13,10 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 
 # Get API key from Streamlit secrets
-#GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # for locall purpose
-load_dotenv()
+#load_dotenv()
 
 # Constants
 CHUNK_SIZE = 1000
@@ -38,7 +38,7 @@ def initialize_components():
 
     if llm is None:
         llm = ChatGroq(
-            #api_key=GROQ_API_KEY,  --it is used in the cloud to secure our key
+            api_key=GROQ_API_KEY,  #it is used in the cloud to secure our key
             model="llama3-70b-8192",
             temperature=0.9,
             max_tokens=500
