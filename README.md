@@ -42,7 +42,7 @@ QueryBridge_Smart_Assistant_Using_RAG-main/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/QueryBridge.git
+gh repo clone HruthikExploiter/QueryBridge_Smart_Assistant_Using_RAG.git
 cd QueryBridge_Smart_Assistant_Using_RAG-main
 ```
 
