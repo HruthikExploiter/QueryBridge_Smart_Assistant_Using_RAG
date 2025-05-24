@@ -2,7 +2,7 @@
 
 QueryBridge is a smart assistant that leverages Retrieval-Augmented Generation (RAG) to provide intelligent, source-backed answers from uploaded documents or URLs. It combines the power of LangChain, HuggingFace embeddings, FAISS vector search, and LLMs (via Groq API) with a FastAPI backend.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-1.png)
 
 ---
 
