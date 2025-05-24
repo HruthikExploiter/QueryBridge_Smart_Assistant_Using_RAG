@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-groq
+streamlit
+chromadb
+unstructured
+python-dotenv
+requests
+beautifulsoup4
+html5lib
+lxml
+protobuf==3.20.3
+opentelemetry-exporter-otlp-proto-grpc==1.22.0
+sentence-transformers
+faiss-cpu
